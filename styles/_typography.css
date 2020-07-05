@@ -1,0 +1,184 @@
+.titleLogo {
+    font-family: var(--pacifico);
+    color: var(--darkGrey);
+    font-size: 2.5rem;
+}
+
+.heroHeading {
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    background-color: transparent;
+    line-height: 4rem;
+}
+
+.heroHeading {
+    color: var(--white);
+}
+
+.heroHeadingHighlight {
+    color: var(--salmon);
+}
+
+.heroHeadingSpecial {
+    font-family: var(--pacifico);
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: var(--blue);
+    background-color: transparent;
+}
+
+.heroText {
+    width: 40%;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+.navMenuItem {
+    font-family: var(--nunito);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.navMenuItem a {
+    text-decoration: none;
+    color: var(--darkGrey);
+}
+/* to center an imager, set left and right margin to auto and make it into a block element */
+.pageHeading {
+    display: block;
+    margin: auto;
+    font-family: var(--nunito);
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--darkGrey);
+    background-color: var(--pink);
+    width: calc(100% - 2.5rem);
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    text-align: center;
+}
+
+.subHeading {
+    font-family: var(--nunito);
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--darkGrey);
+}
+
+.posted {
+    font-family: var(--nunito);
+    font-size: 0.8rem;
+    color: var(--darkGrey);
+}
+
+.bodyText {
+    font-family: var(--nunito);
+    font-size: 1rem;
+    color: var(--darkGrey);
+    line-height: 1.5;
+}
+
+
+@media screen and (max-width: 900px) {
+    .heroHeading {
+        font-size: 2.25rem;
+        line-height: 3.5rem;
+    }
+}
+
+/* @media screen and (max-width: 810px) {
+    .heroHeading {
+        font-size: 2rem; 
+        line-height: 3.1rem;
+    }
+    .heroHeadingSpecial {
+        font-size: 2.4rem;
+    }
+} */
+
+@media screen and (max-width: 810px) {
+    .heroHeading {
+        font-size: 1.8rem; 
+        line-height: 2.8rem;
+    }
+    .heroHeadingSpecial {
+        font-size: 2.16rem;
+    }
+}
+
+@media screen and (max-width: 785px) {
+    .heroText {
+        width: 45%;
+    }
+}
+
+/* @media screen and (max-width: 810px) {
+    .heroHeading {
+        font-size: 1.5rem; 
+        line-height: 2.33rem;
+    }
+    .heroHeadingSpecial {
+        font-size: 1.8rem;
+    }
+} */
+
+@media screen and (max-width: 670px)  {
+    .heroHeading {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+    .heroHeadingSpecial {
+    font-size: 1.8rem;
+}
+}
+
+@media screen and (max-width: 570px)  {
+    .heroHeading {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+    .heroHeadingSpecial {
+    font-size: 1.45rem;
+}
+}
+
+@media screen and (max-width: 440px)  {
+    .heroHeading {
+    font-size: 1rem;
+    line-height: 1.55rem;
+}
+    .heroHeadingSpecial {
+    font-size: 1.2rem;
+}  
+    .titleLogo {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 350px)  {
+    .heroHeading {
+    font-size: 0.8rem;
+    line-height: 1.24rem;
+}
+    .heroHeadingSpecial {
+    font-size: 1rem;
+}
+}
+
+@media screen and (max-width: 780px) {
+    .pageHeading {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .pageHeading {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        font-size: 2rem;
+    }
+}

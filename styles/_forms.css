@@ -1,0 +1,86 @@
+label {
+    font-family: var(--nunito);
+    font-size: 1rem;
+    padding-bottom: 0.8rem;
+    padding-top: 1.2rem;
+}
+
+textarea {
+    border-color: var(--lightGrey);
+    border-width: 1px;
+    width: 60%;
+    height: 10rem;
+    resize: none;
+}
+
+input {
+    border-color: var(--lightGrey);
+    border-width: 1px;
+    border-style: solid;
+    width: 60%;
+    height: 2.5rem;
+}
+
+form .submitButton {
+    width: 25%;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.25rem;
+}
+
+@media screen and (max-width: 970px) {
+    form .submitButton {
+        width: 30%;
+        font-size: 1.3rem;
+        padding: 1.5rem 2.5rem;
+        margin-top: 2rem;
+    }
+}
+
+
+@media screen and (max-width: 780px) {
+    form .submitButton {
+        width: 30%;
+        font-size: 1.25rem;
+        padding: 1rem 1rem;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    form .submitButton {
+        width: 30%;
+        font-size: 1.25rem;
+        padding: 1rem 1rem;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 562px) {
+    form .submitButton {
+        width: 30%;
+        font-size: 1rem;
+        padding: 1rem 1rem;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    input {
+        width: calc(100% - 1.25rem);
+    }
+    textarea {
+        width: calc(100% - 1.25rem);
+    }
+    form .submitButton {
+        width: 40%;
+        font-size: 1rem;
+        padding: 0.5rem 0.75rem;
+        margin-top: 1.5rem;
+    }
+}

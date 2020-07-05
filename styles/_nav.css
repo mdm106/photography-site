@@ -1,0 +1,22 @@
+.navMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    align-self: center;
+}
+
+.navMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.mainHeader button {
+    justify-self: end;
+    align-self: center;
+}
+
+

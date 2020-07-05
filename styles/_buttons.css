@@ -1,0 +1,62 @@
+.navMenuItem {
+    text-decoration: none;
+    color: var(--darkGrey);
+}
+
+.titleLogo a {
+    text-decoration: none;
+    color: var(--darkGrey);
+}
+
+.listLink {
+    font-family: var(--nunito);
+    font-size: 1rem;
+    color: var(--darkGrey);
+}
+
+
+.cardLink {
+    font-family: var(--nunito);
+    font-size: 1rem;
+    color: var(--blue);  
+}
+
+.category {
+    font-family: var(--nunito);
+    font-size: 0.8rem;
+    color: var(--white);
+    text-decoration: none;
+    background-color: var(--blue);
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.2rem;
+}
+
+.submitButton {
+    font-family: var(--nunito);
+    font-size: 1.5rem;
+    color: var(--white);
+    background-color: var(--salmon);
+    padding: 1.5rem 2.5rem;
+    border-radius: 0.2rem;
+    border: none;
+}
+
+.iconButton, .socialsLink {
+    background-color: var(--pink);
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: grid;
+    place-items: center;
+    border: none;
+}
+
+.menuButton {
+    background-color: transparent;
+}
+
+
+.socialsLink {
+    margin: 1rem;
+}
+

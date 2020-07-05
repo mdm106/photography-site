@@ -1,0 +1,74 @@
+.icon {
+    background-color: transparent;
+}
+
+.twitterIcon, .instagramIcon, .youTubeIcon {
+    width: 1.5rem;
+    padding-top: 0.1rem;
+}
+
+.searchIcon {
+    width: 1.5rem;
+}
+
+.facebookIcon {
+    width: 0.9rem;
+}
+
+.barsIcon {
+    width: 2rem;
+}
+
+img {
+    display: block; 
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover; 
+}
+
+.heroContainer {
+    margin: auto;
+    display: block;
+    width: calc(100% - 2.5rem);
+    position: relative; 
+}
+
+
+
+.gallery {
+    margin: auto;
+    width: calc(100% - 4rem);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+.spanTwo {
+    grid-row: span 2;
+}
+
+.galleryImage {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 500px) {
+    .gallery {
+        display: flex;
+        flex-direction: column;
+        width: calc(100% - 2.5rem);
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .largeGallery {
+        display: none;
+    }
+    .mobileGallery {
+        margin-bottom: 1rem;
+    }
+}
+

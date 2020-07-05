@@ -1,0 +1,71 @@
+
+.blogCard {
+    display: flex;
+    flex-direction: column;
+    width: 43%;
+    margin: 3%;
+}
+
+.cardCategoryLinks {
+    align-self: center;
+    margin-top: 1.3rem;
+    margin-bottom: 1.8rem;
+    display: flex;
+}
+
+
+.cardCategoryLinks .category {
+    margin: 0 1.3rem 0;
+}
+
+.blogCard .subHeading, .blogCard .posted, .blogCard .bodyText, .blogCard .cardLink {
+    align-self: center;
+    text-align: center;
+}
+
+
+.blogCard .subHeading {
+    margin-bottom: 1rem;
+}
+
+.blogCard .bodyText {
+    margin: 2rem 0.5rem;
+}
+
+.blogCard .cardLink {
+    margin-bottom: 0.5rem;
+}
+
+.cardList {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% - 2.5rem);
+    margin: auto;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 930px) {
+    .blogCard .subHeading {
+        font-size: 1.75rem;
+    }
+
+} 
+
+
+@media screen and (max-width: 810px) {
+    .blogCard .subHeading {
+        font-size: 1rem;
+    }
+} 
+
+@media screen and (max-width: 500px) {
+    .cardList {
+        display: flex;
+        flex-direction: column;
+    }
+    .blogCard {
+        width: 100%;
+        margin: 3% 0%;
+    }
+}

@@ -1,0 +1,51 @@
+.mainArticle {
+    width: 70%;
+    margin-bottom: 3rem;
+    margin-left: 1.25rem;
+    margin-right: 1.5rem;
+}
+
+.articleImage {
+    width: 100%;
+    /* height: 40%; */
+    margin-bottom: 3rem;
+}
+
+.mainArticle .posted {
+    margin-bottom: 1.5rem;
+}
+
+.mainArticle .bodyText {
+    margin-bottom: 2rem;
+}
+
+.articleCategoryLinks .category {
+    margin-right: 3rem;
+}
+
+.articlePage {
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 2.5rem);
+    margin: 2rem auto;
+}
+
+@media screen and (max-width: 500px) {
+    .mainArticle {
+        width: 100%;
+        margin: 0rem;
+    }
+    .articlePage {
+        margin: 1rem auto 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .articleImage {
+        margin-bottom: 1rem;
+    }
+    .mainArticle .posted {
+        margin-bottom: 1rem;
+    }    
+    .mainArticle .bodyText {
+        margin-bottom: 1rem;
+    }
+}

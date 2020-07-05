@@ -1,0 +1,28 @@
+.mainHeader {
+    width: calc(100% - 2rem);
+    margin: auto;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 60% 30% 10%;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+
+@media screen and (max-width: 780px) {
+    .navMenu {
+        display: none;
+    }
+    .iconButton {
+        display: none;
+    }
+    .menuButton {
+        border: none;
+    }
+}
+
+@media screen and (min-width: 781px) {
+    .menuButton {
+        display: none;
+    }
+}

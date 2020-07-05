@@ -1,0 +1,26 @@
+.widget .subHeading {
+    margin-bottom: 2rem;
+}
+
+.widgetList li {
+    margin-top: 1.5rem;
+}
+
+.widgetList li:last-child {
+    margin-bottom: 3rem;
+}
+
+.sidebar {
+    width: 25%;
+}
+
+.widget {
+    width: 100%;
+    padding-right: 2rem;
+}
+
+@media screen and (max-width: 500px) {
+    .sidebar {
+        display: none;
+    }
+}

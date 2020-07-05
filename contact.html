@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="IE=edge">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="This is a website about ....">
+        <title>My Cool Website</title>
+
+        <link rel="apple-touch-icon" href="icon.png">
+        <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+
+        <link rel="stylesheet" href="styles/style.css">
+
+        <!-- <script src="scripts.js" defer></script> -->
+
+    </head>
+<body>
+<div class="wrapper">
+    <header class="mainHeader">
+    
+        <h1 class="titleLogo"><a href="article.html">Ignis</a></h1>
+        <nav class="navMain">
+            <ul class="navMenu">
+                <li>
+                    <a class="navMenuItem" href="index.html" >Home</a>
+                </li>
+                <li>
+                    <a class="navMenuItem" href="blog.html" >Blog</a>
+                </li>
+                <li>
+                    <a class="navMenuItem" href="contact.html" >Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <button class="iconButton">
+               <img class="icon searchIcon" src="images/searchIcon.svg" alt="search icon"/>
+        </button>
+        <button class="menuButton">
+               <img class="icon barsIcon" src="images/bars.svg" alt="bars menu icon"/>
+        </button>
+     
+    </header>
+    <h2 class="pageHeading">Contact</h2>
+    <form action="" id="form1">
+        <label for="message">Message</label>
+        <textarea id="message"></textarea>
+        <label for="clientName">Name <sup>*</sup></label>
+        <input type="text" name="clientName" id="clientName" required>
+        <label for="clientEmail">Email <sup>*</sup></label>
+        <input type="email" name="clientEmail" id="clientEmail" required >
+        <label for="clientWebsite">Website</label>
+        <input type="url" name="clientWebsite" id="clientWebsite" required >
+        <button class="submitButton" type="submit" form="form1" value="submit">Send Message</button>
+    </form>
+
+    <footer class="mainFooter">
+            <div class="socialsLink">
+                <a href="#">
+                   <img class="icon twitterIcon" src="images/twitterIcon.svg" alt="twitter icon"/>
+                </a>
+            </div>
+            <div class="socialsLink">
+                <a href="#">
+                   <img class="icon instagramIcon" src="images/instagramIcon.svg" alt="instagram icon" />
+                </a>
+            </div>
+            <div class="socialsLink">
+                <a href="#">
+                   <img class="icon facebookIcon" src="images/facebookIcon.svg" alt="facebook icon"/>
+                </a>
+            </div>
+            <div class="socialsLink">
+                <a href="#">
+                   <img class="icon youTubeIcon" src="images/youTubeIcon.svg" alt="search icon"/>
+                </a>
+            </div>
+    </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+/*fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+:root {
+    --darkGrey: #4a4a4a;
+    --lightGrey: #B2B5BA;
+    --salmon: #FF6A7C;
+    --pink: #FFF0E9;
+    --blue: #41CADD;
+    --white: #fefefe;
+    --nunito: 'Nunito', sans-serif;
+    --pacifico: 'Pacifico', cursive;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+img {
+    object-fit: cover;
+  }
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/*temporary background*/
+
+/* * {
+    background-color: rgb(163, 163, 163);
+} */
