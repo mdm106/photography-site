@@ -1,17 +1,17 @@
-@import '_reset.css';
-@import '_settings.css';
+@import 'reset.css';
+@import 'settings.css';
 
-@import '_typography.css';
-@import '_forms.css';
-@import '_imagery.css';
+@import 'typography.css';
+@import 'forms.css';
+@import 'imagery.css';
 
-@import '_buttons.css';
+@import 'buttons.css';
 
-@import '_nav.css';
-@import '_header.css';
-@import '_footer.css';
+@import 'nav.css';
+@import 'header.css';
+@import 'footer.css';
 
-@import '_card.css';
+@import 'card.css';
 
-@import '_sidebar.css';
-@import '_article.css';
+@import 'sidebar.css';
+@import 'article.css';

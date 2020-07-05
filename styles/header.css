@@ -9,6 +9,20 @@
 }
 
 
+@media screen and (max-width: 780px) {
+    .navMenu {
+        display: none;
+    }
+    .iconButton {
+        display: none;
+    }
+    .menuButton {
+        border: none;
+    }
+}
 
-
-
+@media screen and (min-width: 781px) {
+    .menuButton {
+        display: none;
+    }
+}
